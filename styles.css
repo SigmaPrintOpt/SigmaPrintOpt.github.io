@@ -2377,7 +2377,9 @@ nav ul li a:hover:after {
 /* Добавляем новый медиа-запрос для средних экранов */
 @media (max-width: 1199px) {
     .benefits-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 колонки */
+        grid-template-columns: 1fr; /* Теперь 1 колонка */
+        padding-left: 20px;    /* Добавляем отступы для согласованности */
+        padding-right: 20px;   /* Добавляем отступы для согласованности */
     }
 }
 
